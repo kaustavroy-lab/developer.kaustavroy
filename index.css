@@ -476,7 +476,7 @@ width: 100%;}
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+#LayoutGrid5 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -485,7 +485,7 @@ width: 100%;}
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+#LayoutGrid5 > .row > .col-1
 {
    float: left;
 }
@@ -496,13 +496,6 @@ width: 100%;}
    border: 0px solid #FFFFFF;
    width: 100%;
    text-align: center;
-}
-#LayoutGrid5 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
-   text-align: left;
 }
 #LayoutGrid5:before,
 #LayoutGrid5:after,
@@ -519,7 +512,7 @@ width: 100%;}
 }
 @media (max-width: 480px)
 {
-#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+#LayoutGrid5 > .row > .col-1
 {
    float: none;
    width: 100% !important;
@@ -572,3 +565,69 @@ width: 100%;}
    margin: 0;
    box-sizing: border-box;
 width: 100%;}
+#TabMenu2
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 15px 0px 4px 10px;
+   overflow: hidden;
+}
+#TabMenu2 li
+{
+   float: left;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   position: relative;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu2 li a
+{
+   padding: 5px 14px 8px 14px;
+   margin-right: 6px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#TabMenu2 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#TabMenu2
+{
+   border-bottom: 1px solid #D19405;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   background-color: #FFFFFF;
+   color: #FF0000;
+}
+#TabMenu2 li a
+{
+   border: 1px solid #D19405;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #FECE2F;
+   color: #4C3000;
+}
+#TabMenu2 li a:hover
+{
+   background: #FFDD57;
+   color: #381F00;
+}
