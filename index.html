@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en-us">
 <head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta charset="utf-8">
 <title>Kaustav Roy</title>
 <meta name="description" content="I am a creative video editor & web developer . Also I am a Folly Maker with good Knowledge . I love spending time on little details . Also I like working in a team. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best . This passion led me to challenge myself daily and learn new skills that helped me to do better work.">
@@ -21,15 +22,44 @@
 <link href="Kaustav_Roy logo.png" rel="icon" sizes="512x512" type="image/png">
 <link href="Kaustav_Roy logo.png" rel="apple-touch-icon" sizes="512x512">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-<link href="Kaustav_Roy.css?v=9" rel="stylesheet">
-<link href="index.css?v=9" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+<link href="Kaustav_Roy.css?v=12" rel="stylesheet">
+<link href="index.css?v=12" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
+<script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $('#wb_Image1').addClass('visibility-hidden');
+   function onScrollImage1()
+   {
+      var $obj = $("#wb_Image1");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image1', 'flip-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image1', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image1').inViewPort(true))
+   {
+      $('#wb_Image1').addClass("in-viewport");
+   }
+   onScrollImage1();
+   $(window).scroll(function(event)
+   {
+      onScrollImage1();
+   });
    $('img[data-src]').lazyload();
 });
 </script>
@@ -59,7 +89,7 @@ $(document).ready(function()
 <div class="col-1">
 <div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:1;">
    <div id="Card1-card-body">
-      <img id="Card1-card-item0" src="images/kaustavory.jpg" alt="" title="">
+      <img id="Card1-card-item0" src="images/kaustavory.jpg" alt="Kaustav Roy" title="Kaustav Roy">
    </div>
 </div>
 </div>
@@ -74,7 +104,7 @@ $(document).ready(function()
 <span style="color:#EB990F;font-family:Lobster;font-size:29px;">Profile</span>
 </div>
 <div id="wb_Text2">
-<span style="color:#FE0000;font-family:Lobster;font-size:17px;line-height:25px;"><u>I'm a Creative Video Editor &amp; Web Developer</u></span>
+<span style="color:#FE0000;font-family:Lobster;font-size:17px;line-height:25px;"><u>I'm a Freelancer Video Editor &amp; Web Developer</u></span>
 </div>
 </div>
 </div>
@@ -88,12 +118,12 @@ $(document).ready(function()
 <span style="color:#EB990F;font-family:Lobster;font-size:29px;">About Me</span>
 </div>
 <div id="wb_Text4">
-<span style="color:#FFFFFF;font-family:'Comic Sans MS';font-size:16px;">I am a creative video editor &amp; web developer . Also I am a Folly Maker with good Knowledge . I love spending time on little details . Also I like working in a team. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best . This passion led me to challenge myself daily and learn new skills that helped me to do better work.</span>
+<span style="color:#FFFFFF;font-family:'Architects Daughter';font-size:16px;">I am a freelancer video editor &amp; web developer . Also I am a Folly, SFX &amp; VFX Maker with good Knowledge . I love spending time on little details . Also I like working in a team . I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best . This passion led me to challenge myself daily and learn new skills that helped me to do better work.</span>
 </div>
 </div>
 <div class="col-2">
 <div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:6;">
-<img src="images/placeholder.gif" data-src="images/Kaustav_Roy.png" id="Image1" alt="">
+<img src="images/placeholder.gif" data-src="images/Kaustav_Roy.png" data-src-retina="images/Kaustav_Roy.jpg" id="Image1" alt="Kaustav Roy" title="Kaustav Roy">
 </div>
 </div>
 </div>
@@ -119,7 +149,7 @@ $(document).ready(function()
 <div id="LayoutGrid6">
 <div class="row">
 <div class="col-1">
-<a id="Button1" href="./contact.html" style="display:inline-block;width:169px;height:40px;z-index:9;">Contact</a>
+<a id="Button2" href="./contact.html" style="display:inline-block;width:169px;height:40px;z-index:9;">Contact</a>
 </div>
 </div>
 </div>

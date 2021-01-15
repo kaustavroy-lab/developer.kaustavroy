@@ -2,7 +2,7 @@
 <html lang="en-us">
 <head>
 <meta charset="utf-8">
-<title>Kaustav Roy</title>
+<title>Contact Kaustav Roy</title>
 <meta name="description" content="I am a creative video editor & web developer . Also I am a Folly Maker with good Knowledge . I love spending time on little details . Also I like working in a team. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best . This passion led me to challenge myself daily and learn new skills that helped me to do better work.">
 <meta name="keywords" content="Developer, Video Editor, VFX, SFX, Creative, Kaustav Roy, kaustav, dristikon, work, experience, home, folly, good, passion,contact">
 <meta name="author" content="Kaustav Roy">
@@ -21,15 +21,44 @@
 <link href="Kaustav_Roy logo.png" rel="icon" sizes="512x512" type="image/png">
 <link href="Kaustav_Roy logo.png" rel="apple-touch-icon" sizes="512x512">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-<link href="Kaustav_Roy.css?v=9" rel="stylesheet">
-<link href="contact.css?v=9" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
+<link href="Kaustav_Roy.css?v=12" rel="stylesheet">
+<link href="contact.css?v=12" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
+<script src="wwb16.min.js"></script>
 <script>
 $(document).ready(function()
 {
+   $('#wb_Image2').addClass('visibility-hidden');
+   function onScrollImage2()
+   {
+      var $obj = $("#wb_Image2");
+      if (!$obj.hasClass("in-viewport") && $obj.inViewPort(false))
+      {
+         $obj.addClass("in-viewport");
+         AnimateCss('wb_Image2', 'flip-in', 0, 1250);
+      }
+      else
+      if ($obj.hasClass("in-viewport") && !$obj.inViewPort(true))
+      {
+         $obj.removeClass("in-viewport");
+         AnimateCss('wb_Image2', 'animate-fade-out', 0, 0);
+      }
+   }
+   if (!$('#wb_Image2').inViewPort(true))
+   {
+      $('#wb_Image2').addClass("in-viewport");
+   }
+   onScrollImage2();
+   $(window).scroll(function(event)
+   {
+      onScrollImage2();
+   });
    $('img[data-src]').lazyload();
 });
 </script>
@@ -59,7 +88,7 @@ $(document).ready(function()
 <div class="col-1">
 <div id="wb_Card1" style="display:flex;width:100%;text-align:center;z-index:1;">
    <div id="Card1-card-body">
-      <img id="Card1-card-item0" src="images/kaustavroycontact.jpg" alt="" title="">
+      <img id="Card1-card-item0" src="images/kaustavroycontact.jpg" alt="Contact Kaustav Roy" title="Contact Kaustav Roy">
    </div>
 </div>
 </div>
@@ -71,15 +100,82 @@ $(document).ready(function()
 <div class="row">
 <div class="col-1">
 <div id="wb_Text3">
-<span style="color:#EB990F;font-family:Lobster;font-size:29px;">Contact</span>
+<span style="color:#EB990F;font-family:Lobster;font-size:29px;"><u>Contact</u></span>
 </div>
-<div id="wb_Text4">
-<span style="color:#FFFFFF;font-family:'Comic Sans MS';font-size:16px;">I am a creative video editor &amp; web developer . Also I am a Folly Maker with good Knowledge . I love spending time on little details . Also I like working in a team. I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best . This passion led me to challenge myself daily and learn new skills that helped me to do better work.</span>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_ClipArt1" style="display:inline-block;width:54px;height:49px;z-index:2;position:relative;">
+<a href="tel:7063515775" title="I Want To Hire"><img class="hover" src="images/img0001_hover.png" alt="" style="border-width:0;width:54px;height:49px;"><span class="default"><img src="images/img0001.png" id="ClipArt1" alt="" style="width:54px;height:49px;"></span></a>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_ClipArt2" style="display:inline-block;width:53px;height:50px;z-index:3;position:relative;">
+<a href="mailto:businesswithkaustav@gmail.com" title="I Want To Hire"><img class="hover" src="images/img0002_hover.png" alt="" style="border-width:0;width:53px;height:50px;"><span class="default"><img src="images/img0002.png" id="ClipArt2" alt="" style="width:53px;height:50px;"></span></a>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_ClipArt3" style="display:inline-block;width:50px;height:49px;z-index:4;position:relative;">
+<a href="https://wa.me/message/DV3ZJJNTU4UAB1" title="I Want To Hire"><img class="hover" src="images/img0003_hover.png" alt="" style="border-width:0;width:50px;height:49px;"><span class="default"><img src="images/img0003.png" id="ClipArt3" alt="" style="width:50px;height:49px;"></span></a>
+</div>
+</div>
+<div class="col-5">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Image2" style="display:inline-block;width:100%;height:auto;z-index:10;">
+<img src="images/placeholder.gif" data-src="images/Kaustav_Roy.png" data-src-retina="images/Kaustav_Roy.jpg" id="Image2" alt="Kaustav Roy" title="Kaustav Roy">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid7">
+<div id="LayoutGrid7">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text2">
+<span style="color:#FFFFFF;font-family:'Architects Daughter';font-size:16px;">&quot;A customer is the most important visitor on our premises, he is not dependent on us. We are dependent on him. He is not an interruption in our work. He is the purpose of it. He is not an outsider in our business. He is part of it. We are not doing him a favor by serving him. He is doing us a favor by giving us an opportunity to do so.&quot;-Mahatma Gandhi</span>
 </div>
 </div>
 <div class="col-2">
-<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:4;">
-<img src="images/placeholder.gif" data-src="images/Kaustav_Roy.png" id="Image1" alt="">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid6">
+<div id="LayoutGrid6">
+<div class="row">
+<div class="col-1">
+<div id="wb_JavaScript1" style="display:inline-block;width:100%;z-index:12;">
+<div style="color:#FFFFFF;font-size:15px;font-family:Arial;font-weight:normal;font-style:normal;text-align:center;text-decoration:none" id="copyrightnotice"></div>
+<script>
+   var now = new Date();
+   var startYear = "2020";
+   var text =  "Copyright &copy; ";
+   if (startYear != '')
+   {
+      text = text + startYear + "-";
+   }
+   text = text + now.getFullYear() + ", Kaustav Roy. All rights reserved.";
+   var copyrightnotice = document.getElementById('copyrightnotice');
+   copyrightnotice.innerHTML = text;
+</script>
+
+
+
 </div>
 </div>
 </div>

@@ -34,6 +34,10 @@ input:focus, textarea:focus, select:focus
 {
    outline: none;
 }
+.visibility-hidden
+{
+   visibility: hidden;
+}
 #wb_LayoutGrid1
 {
    clear: both;
@@ -442,13 +446,6 @@ width: 100%;}
    margin-right: auto;
    vertical-align: top;
 }
-#Image1:hover
-{
-   -webkit-transform: rotate(0deg) scale(1.3,1.3) ;
-   transform: rotate(0deg) scale(1.3,1.3) ;
-   -webkit-transition: -webkit-transform 350ms linear 0ms;
-   transition: transform 350ms linear 0ms;
-}
 #wb_LayoutGrid5
 {
    clear: both;
@@ -549,7 +546,7 @@ width: 100%;}
 #wb_Text6
 {
    color: #FE0000;
-   font-family: "Comic Sans MS";
+   font-family: "Dancing Script";
    font-weight: normal;
    font-size: 17px;
    line-height: 24.5px;
@@ -700,26 +697,6 @@ width: 100%;}
    width: 100% !important;
 }
 }
-#Button1
-{
-   line-height: 40px;
-   text-align: center;
-   text-decoration: none;
-   vertical-align: top;
-   border: 1px solid #FE0000;
-   border-radius: 4px;
-   background-color: #EB990F;
-   background-image: none;
-   color: #FFFFFF;
-   font-family: Lobster;
-   font-weight: normal;
-   font-style: normal;
-   font-size: 20px;
-   padding: 1px 6px 1px 6px;
-   text-align: center;
-   -webkit-appearance: none;
-   margin: 0;
-}
 #wb_LayoutGrid7
 {
    clear: both;
@@ -788,4 +765,31 @@ width: 100%;}
    float: none;
    width: 100% !important;
 }
+}
+#Button2
+{
+   line-height: 40px;
+   text-align: center;
+   text-decoration: none;
+   vertical-align: top;
+   border: 1px solid #FE0000;
+   border-radius: 4px;
+   background-color: #EB990F;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: Lobster;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 20px;
+   padding: 1px 6px 1px 6px;
+   text-align: center;
+   -webkit-appearance: none;
+   margin: 0;
+}
+#Button2:hover
+{
+   -webkit-transform: rotate(0deg) scale(1.5,1.5) ;
+   transform: rotate(0deg) scale(1.5,1.5) ;
+   -webkit-transition: -webkit-transform 300ms linear 0ms;
+   transition: transform 300ms linear 0ms;
 }
