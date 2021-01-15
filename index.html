@@ -27,8 +27,8 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
-<link href="Kaustav_Roy.css?v=12" rel="stylesheet">
-<link href="index.css?v=12" rel="stylesheet">
+<link href="Kaustav_Roy.css?v=13" rel="stylesheet">
+<link href="index.css?v=13" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
 <script src="wwb16.min.js"></script>
@@ -138,7 +138,7 @@ $(document).ready(function()
 </div>
 <div id="wb_Text6">
 <p style="color:#FE0000;">Name<span style="color:#FFFFFF;">:- Kaustav Roy</span></p>
-<p style="color:#FE0000;">Age<span style="color:#FFFFFF;">:- </span><span style="color:#EB990F;">150 years </span><img alt="" width="32" height="32" src="images/Text61.png"></p>
+<p style="color:#FE0000;">Age<span style="color:#FFFFFF;">:- </span><span style="color:#EB990F;">150 years </span></p>
 <p style="color:#FE0000;">Location<span style="color:#FFFFFF;"> :- Tarakeswar, Hooghly, West Bengal </span></p>
 </div>
 </div>
@@ -179,6 +179,65 @@ $(document).ready(function()
 </div>
 </div>
 </div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div style="z-index:11">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div style="z-index:12">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
 </div>
 </body>
 </html>

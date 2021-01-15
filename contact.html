@@ -26,8 +26,8 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Yeseva+One" rel="stylesheet">
-<link href="Kaustav_Roy.css?v=12" rel="stylesheet">
-<link href="contact.css?v=12" rel="stylesheet">
+<link href="Kaustav_Roy.css?v=13" rel="stylesheet">
+<link href="contact.css?v=13" rel="stylesheet">
 <script src="jquery-1.12.4.min.js"></script>
 <script src="wb.lazyload.min.js"></script>
 <script src="wwb16.min.js"></script>
@@ -150,8 +150,6 @@ $(document).ready(function()
 <span style="color:#FFFFFF;font-family:'Architects Daughter';font-size:16px;">&quot;A customer is the most important visitor on our premises, he is not dependent on us. We are dependent on him. He is not an interruption in our work. He is the purpose of it. He is not an outsider in our business. He is part of it. We are not doing him a favor by serving him. He is doing us a favor by giving us an opportunity to do so.&quot;-Mahatma Gandhi</span>
 </div>
 </div>
-<div class="col-2">
-</div>
 </div>
 </div>
 </div>
@@ -180,6 +178,65 @@ $(document).ready(function()
 </div>
 </div>
 </div>
+</div>
+<div id="wb_LayoutGrid8">
+<div id="LayoutGrid8">
+<div class="row">
+<div class="col-1">
+<div style="z-index:13">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+<div style="z-index:14">
+<script>
+var disabled_message = "";
+document.oncontextmenu = function() 
+{ 
+   return false; 
+}
+document.onmousedown = function md(e) 
+{ 
+  try 
+  { 
+     if (event.button==2||event.button==3) 
+     {
+        if (disabled_message != '')
+           alert(disabled_message);
+        return false; 
+     }
+  }  
+  catch (e) 
+  { 
+     if (e.which == 3) return false; 
+  } 
+}
+</script>
 </div>
 </body>
 </html>

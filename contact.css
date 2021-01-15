@@ -694,7 +694,7 @@ width: 100%;}
    margin-right: -15px;
    margin-left: -15px;
 }
-#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+#LayoutGrid7 > .row > .col-1
 {
    box-sizing: border-box;
    font-size: 0px;
@@ -703,7 +703,7 @@ width: 100%;}
    padding-left: 15px;
    position: relative;
 }
-#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+#LayoutGrid7 > .row > .col-1
 {
    float: left;
 }
@@ -713,13 +713,6 @@ width: 100%;}
    background-image: none;
    border: 0px solid #FFFFFF;
    width: 100%;
-   text-align: center;
-}
-#LayoutGrid7 > .row > .col-2
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #FFFFFF;
    text-align: center;
 }
 #LayoutGrid7:before,
@@ -737,7 +730,7 @@ width: 100%;}
 }
 @media (max-width: 0px)
 {
-#LayoutGrid7 > .row > .col-1, #LayoutGrid7 > .row > .col-2
+#LayoutGrid7 > .row > .col-1
 {
    float: none;
    width: 100% !important;
@@ -853,4 +846,73 @@ width: 100%;}
    margin-left: auto;
    margin-right: auto;
    vertical-align: top;
+}
+#wb_LayoutGrid8
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 30px 0px 10px 0px;
+}
+#LayoutGrid8
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid8 > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid8 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid8:before,
+#LayoutGrid8:after,
+#LayoutGrid8 .row:before,
+#LayoutGrid8 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid8:after,
+#LayoutGrid8 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid8 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
 }
