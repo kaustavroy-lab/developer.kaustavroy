@@ -1,32 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://developer.dristikononline.in/</loc>
-  <lastmod>2021-01-16T08:47:00+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://developer.dristikononline.in/index</loc>
-  <lastmod>2021-01-16T08:47:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://developer.dristikononline.in/experience</loc>
-  <lastmod>2021-01-16T08:47:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://developer.dristikononline.in/contact</loc>
-  <lastmod>2021-01-16T08:47:00+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
+	<url>
+		<loc>http://www.yourwebsite.com/</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.yourwebsite.com/index</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.yourwebsite.com/experience</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.yourwebsite.com/contact</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.yourwebsite.com/404</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
+	<url>
+		<loc>http://www.yourwebsite.com/Master_Frame</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>hourly</changefreq>
+		<priority>1.0</priority>
+	</url>
 </urlset>

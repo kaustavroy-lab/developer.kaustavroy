@@ -97,13 +97,178 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 480px)
+@media (max-width: 0px)
 {
 #LayoutGrid1 > .row > .col-1
 {
    float: none;
    width: 100% !important;
 }
+}
+#wb_LayoutGrid2
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: none;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid2
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid2 > .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   float: left;
+}
+#LayoutGrid2 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGrid2:before,
+#LayoutGrid2:after,
+#LayoutGrid2 .row:before,
+#LayoutGrid2 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid2:after,
+#LayoutGrid2 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid2 > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Card1
+{
+   position: relative;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Card1-card-body
+{
+   -webkit-flex: 1 1 auto;
+   flex: 1 1 auto;
+   font-size: 0px;
+}
+#Card1-card-item0
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   width: 100%;
+}
+#TabMenu2
+{
+   text-align: left;
+   float: left;
+   margin: 0;
+   width: 100%;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   font-style: normal;
+   list-style-type: none;
+   padding: 15px 0px 4px 10px;
+   overflow: hidden;
+}
+#TabMenu2 li
+{
+   float: left;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   position: relative;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   z-index: 2;
+}
+#TabMenu2 li a
+{
+   padding: 5px 14px 8px 14px;
+   margin-right: 2px;
+   text-decoration: none;
+   border-bottom: none;
+   position: relative;
+   top: 0;
+   -webkit-transition: 200ms all linear;
+   transition: 200ms all linear;
+}
+#TabMenu2 li a:hover
+{
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   top: -4px;
+}
+#TabMenu2
+{
+   border-bottom: 1px solid #D19405;
+}
+#TabMenu2 li a.active, #TabMenu2 li a:hover.active
+{
+   background-color: #FFC000;
+   color: #FF0080;
+}
+#TabMenu2 li a
+{
+   border: 1px solid #D19405;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   background-color: #FECE2F;
+   color: #4C3000;
+}
+#TabMenu2 li a:hover
+{
+   background: #FFDD57;
+   color: #381F00;
 }
 #wb_LayoutGrid2
 {
@@ -292,72 +457,6 @@ input:focus, textarea:focus, select:focus
    margin: 0px 0px 10px 0px;
    box-sizing: border-box;
 width: 100%;}
-#TabMenu2
-{
-   text-align: left;
-   float: left;
-   margin: 0;
-   width: 100%;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   list-style-type: none;
-   padding: 15px 0px 4px 10px;
-   overflow: hidden;
-}
-#TabMenu2 li
-{
-   float: left;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   position: relative;
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   z-index: 2;
-}
-#TabMenu2 li a
-{
-   padding: 5px 14px 8px 14px;
-   margin-right: 6px;
-   text-decoration: none;
-   border-bottom: none;
-   position: relative;
-   top: 0;
-   -webkit-transition: 200ms all linear;
-   transition: 200ms all linear;
-}
-#TabMenu2 li a:hover
-{
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   top: -4px;
-}
-#TabMenu2
-{
-   border-bottom: 1px solid #D19405;
-}
-#TabMenu2 li a.active, #TabMenu2 li a:hover.active
-{
-   background-color: #FFFFFF;
-   color: #FF0000;
-}
-#TabMenu2 li a
-{
-   border: 1px solid #D19405;
-   border-top-left-radius: 5px;
-   border-top-right-radius: 5px;
-   background-color: #FECE2F;
-   color: #4C3000;
-}
-#TabMenu2 li a:hover
-{
-   background: #FFDD57;
-   color: #381F00;
-}
 #wb_LayoutGrid3
 {
    clear: both;
